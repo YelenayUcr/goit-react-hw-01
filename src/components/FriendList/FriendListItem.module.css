@@ -1,15 +1,10 @@
-.container {
-    width: 100%;
-        margin: 20px auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-}
-
 .item {
+    display: flex;
+    flex-direction: column;
+    /* İçeriği dikey hizalar */
     align-items: center;
-  list-style-type: none;
+    /* İçeriği ortalar */
+    list-style-type: none;
     width: 120px;
     padding: 15px;
     border: 2px solid black;
@@ -18,6 +13,7 @@
     background-color: white;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
+
 .avatar {
     width: 60px;
     height: 60px;
