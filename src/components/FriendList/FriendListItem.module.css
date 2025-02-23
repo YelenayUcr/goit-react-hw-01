@@ -1,9 +1,19 @@
+.friendList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
 .item {
     display: flex;
     flex-direction: column;
-    /* İçeriği dikey hizalar */
     align-items: center;
-    /* İçeriği ortalar */
     list-style-type: none;
     width: 120px;
     padding: 15px;
